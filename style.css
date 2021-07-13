@@ -1,0 +1,134 @@
+*{margin:0;padding:0;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/*...................................... Header section style Start Here................ */
+
+header#header {
+    padding: 70px;
+}
+
+.boxs {
+    overflow: hidden;
+}
+
+.box {
+    float: left;
+    width: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+span {
+    color: tomato;
+}
+
+h5 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+p {
+    padding: 30px 0px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+button {
+    background: tomato;
+    border: 1px solid white;
+    padding: 10px 17px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+button:hover {
+    background: black;
+    border: 1px solid tomato;
+    cursor: pointer;
+    
+}
+
+.image {
+    width: 70%;
+    margin: auto auto;
+}
+/*...................................... Header section style End Here................ */
+/*...................................... Skills section style Start Here................ */
+
+section#skills {
+    padding: 0px 70px;
+    text-align: center;
+}
+
+.skills-wraper h1 {
+    padding-bottom: 40px;
+}
+
+.skills-items {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+label {float: left;font-size: 20px;padding: 10px 0px;}
+
+progress {
+    width: 100%;
+    padding: 15px 0px;
+    color: tomato;
+}
+
+
+/*...................................... Skills section style End Here................ */
+/*...................................... Footer section style Start Here................ */
+
+footer#footer {
+    padding: 0px 70px;
+    background: black;
+    color: white;
+}
+
+.footer-wraper {
+    padding: 30px 0px;
+}
+
+.icons {
+    width: 100%;
+    text-align: center;
+}
+
+.icons i {
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.icons i:hover {
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.icons a {
+    color: white;
+}
+/*...................................... Footer section style End Here................ */
+
